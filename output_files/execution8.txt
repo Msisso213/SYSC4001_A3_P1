@@ -1,0 +1,21 @@
+./interrupts_EP_RR input_files/input4.txt RR output
+
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  1 |       NEW |     READY |
+|                 0 |  1 |     READY |   RUNNING |
+|                 5 |  2 |       NEW |     READY |
+|                10 |  3 |       NEW |     READY |
+|                15 |  4 |       NEW |     READY |
+|                25 |  5 |       NEW |     READY |
+|                99 |  1 |   RUNNING |TERMINATED |
+|               100 |  5 |     READY |   RUNNING |
+|               139 |  5 |   RUNNING |TERMINATED |
+|               140 |  4 |     READY |   RUNNING |
+|               189 |  4 |   RUNNING |TERMINATED |
+|               190 |  3 |     READY |   RUNNING |
+|               249 |  3 |   RUNNING |TERMINATED |
+|               250 |  2 |     READY |   RUNNING |
+|               329 |  2 |   RUNNING |TERMINATED |
++------------------------------------------------+
