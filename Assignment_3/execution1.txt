@@ -1,0 +1,42 @@
+./interrupts_EP input_files/input1.txt output
+
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  1 |       NEW |     READY |
+|                 0 |  1 |     READY |   RUNNING |
+|                 5 |  2 |       NEW |     READY |
+|                10 |  3 |       NEW |     READY |
+|                15 |  4 |       NEW |     READY |
+|                39 |  1 |   RUNNING |TERMINATED |
+|                40 |  2 |     READY |   RUNNING |
+|                49 |  2 |   RUNNING |   WAITING |
+|                50 |  3 |     READY |   RUNNING |
+|                54 |  2 |   WAITING |     READY |
+|                57 |  3 |   RUNNING |   WAITING |
+|                58 |  2 |     READY |   RUNNING |
+|                60 |  3 |   WAITING |     READY |
+|                67 |  2 |   RUNNING |   WAITING |
+|                68 |  3 |     READY |   RUNNING |
+|                72 |  2 |   WAITING |     READY |
+|                75 |  3 |   RUNNING |   WAITING |
+|                76 |  2 |     READY |   RUNNING |
+|                78 |  3 |   WAITING |     READY |
+|                85 |  2 |   RUNNING |   WAITING |
+|                86 |  3 |     READY |   RUNNING |
+|                90 |  2 |   WAITING |     READY |
+|                93 |  3 |   RUNNING |   WAITING |
+|                94 |  2 |     READY |   RUNNING |
+|                96 |  3 |   WAITING |     READY |
+|               103 |  2 |   RUNNING |   WAITING |
+|               104 |  3 |     READY |   RUNNING |
+|               108 |  2 |   WAITING |     READY |
+|               109 |  3 |   RUNNING |TERMINATED |
+|               110 |  2 |     READY |   RUNNING |
+|               119 |  2 |   RUNNING |   WAITING |
+|               120 |  4 |     READY |   RUNNING |
+|               124 |  2 |   WAITING |     READY |
+|               139 |  4 |   RUNNING |TERMINATED |
+|               140 |  2 |     READY |   RUNNING |
+|               149 |  2 |   RUNNING |TERMINATED |
++------------------------------------------------+
