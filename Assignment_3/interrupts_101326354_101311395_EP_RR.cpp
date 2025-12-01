@@ -5,7 +5,7 @@
  * 
  */
 
-#include<interrupts_student1_student2.hpp>
+#include"interrupts_101326354_101311395.hpp"
 
 // Enum to select scheduling algorithm
 enum SchedulingAlgorithm {
